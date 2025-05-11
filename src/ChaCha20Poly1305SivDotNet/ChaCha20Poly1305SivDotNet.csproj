@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Version>0.0.1</Version>
+        <Authors>Samuel Lucas</Authors>
+        <Description>A misuse-resistant, key-committing AEAD scheme based on ChaCha20 and Poly1305.</Description>
+        <Copyright>Copyright (c) 2025 Samuel Lucas</Copyright>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/samuel-lucas6/ChaCha20-Poly1305-SIV</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/samuel-lucas6/ChaCha20-Poly1305-SIV</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>chacha20 poly1305 chacha20-poly1305 xchacha20-poly1305 chacha20-poly1305-siv ccp-siv siv aead authenticated-encryption</PackageTags>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Geralt" Version="3.3.0" />
+    </ItemGroup>
+
+</Project>

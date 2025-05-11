@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChaCha20Poly1305SivDotNet", "ChaCha20Poly1305SivDotNet\ChaCha20Poly1305SivDotNet.csproj", "{E948BCD1-5819-477A-9356-6B9CCBA71C07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChaCha20Poly1305SivDotNet.Tests", "ChaCha20Poly1305SivDotNet.Tests\ChaCha20Poly1305SivDotNet.Tests.csproj", "{45883E62-7C1E-4C44-958B-D5546ED15E49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E948BCD1-5819-477A-9356-6B9CCBA71C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E948BCD1-5819-477A-9356-6B9CCBA71C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E948BCD1-5819-477A-9356-6B9CCBA71C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E948BCD1-5819-477A-9356-6B9CCBA71C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45883E62-7C1E-4C44-958B-D5546ED15E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45883E62-7C1E-4C44-958B-D5546ED15E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45883E62-7C1E-4C44-958B-D5546ED15E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45883E62-7C1E-4C44-958B-D5546ED15E49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
